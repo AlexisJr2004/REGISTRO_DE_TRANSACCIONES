@@ -1,0 +1,374 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 80%;
+}
+
+label, input {
+  margin: 10px;
+}
+
+input[type="button"] {
+  margin-top: 10px;
+}
+
+#tabla-transferencias {
+  margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.tabla-transferencias input[type="button"] {
+  display: block;
+  margin: 20px auto 0;
+}
+
+
+
+
+/* Estilo para el cuerpo de la página */
+body {
+  background-color: #f2f2f2;
+  font-family: 'Helvetica Neue', sans-serif;
+  
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los títulos */
+h1, h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Estilo para los formularios */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  
+  
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+
+input[type="button"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+input[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Estilo para la tabla de transferencias */
+#tabla-transferencias {
+  margin-top: 50px;
+  
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+  
+}
+
+th {
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: 700;
+  
+}
+
+/* Estilo para el botón de imprimir */
+.imprimir-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  max-width: 200px;
+  
+}
+
+.imprimir-btn:hover {
+  background-color: #3e8e41;
+  
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 50px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 80%;
+  
+}
+
+label, select, input {
+  margin: 10px;
+  
+}
+
+input[type="button"] {
+  margin-top: 10px;
+  border-radius: 100px;
+}
+
+#tabla-transferencias {
+  margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid  #3e8e41;
+}
+
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  background-color: #d2d2d2;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+.navbar a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Cambia el color de fondo del enlace activo */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Estilo para la sección principal de la página */
+.main {
+  padding: 20px;
+}
+
+
+.seccion.activa {
+  background-color: #f2f2f2;
+}
+
+
+
+.form-group {
+  margin-bottom: 1rem;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #0069d9;
+  
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  clear: both;
+  border-radius: 100px;
+  
+}
+
+.form-group {
+  margin-bottom: 10px;
+  
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+  
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  border-radius: 100px;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  margin: 0 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  margin: 0 20px;
+}
+
+.navbar a.active {
+  color: rgb(11, 126, 59);
+}
+

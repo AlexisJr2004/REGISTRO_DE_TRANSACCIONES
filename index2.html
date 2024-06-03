@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="pestaña.ico">
+    <meta charset="UTF-8">
+    <title>VENTAS CYBER NARANJAL CITY</title>
+    <!-- <link rel="stylesheet" href="calculadora.css"> -->
+    <link rel="stylesheet" href="calculadora.css">
+  </head>
+  
+  <head>
+    <title>Mi página web</title>
+    <div class="main">
+        <h1>SISTEMA DE REGISTRO DE TRANSACCIONES DE VENTAS</h1>
+      </div>
+
+
+      <nav class="navbar">
+        <a class="seccion" href="./index1.html">Registro de transacciones bancarias</a>
+        <a class="seccion" href="./index2.html">Registro de ventas</a>
+        <a class="seccion" href="./index.html">Iniciar seción</a>
+        <!-- <a class="seccion" href="#contacto">Contacto</a> -->
+        </nav>
+<br>
+<br>
+  <body>
+    
+    <div class="container">
+      <h1>REGISTRO DE VENTAS</h1>
+      <form>
+        <div class="form-group">
+          <label for="producto">Producto:</label>
+          <input type="text" id="producto">
+        </div>
+        <div class="form-group">
+          <label for="cantidad">Cantidad:</label>
+          <input type="number" id="cantidad" min="1" value="1">
+        </div>
+        <div class="form-group">
+          <label for="precio">Precio:</label>
+          <input type="number" id="precio" value="0">
+        </div>
+        <br>
+        <button type="button" onclick="agregarVenta()">Agregar</button>
+      </form>
+      
+      <table id="tabla-ventas">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Total:</td>
+            <td class="total"></td>
+          </tr>
+        </tfoot>
+      </table>
+      <button type="button" onclick="reiniciarVentas()">Reiniciar</button>
+      <button type="button" onclick="imprimirDatos()">Imprimir</button>
+    </div>
+    <script src="calculadora.js"></script>
+    <footer style="text-align: center; font-weight: bold; margin-top: 50px;">
+        © CYBER NARANJAL CITY
+      </footer>
+      
+  </body>
+</html>

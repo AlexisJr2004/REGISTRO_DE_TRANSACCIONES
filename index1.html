@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<link rel="icon" href="./pestaña.ico">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registro de transferencias bancarias</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  
+  
+  
+  <body>
+    <head>
+        <title>Mi página web</title>
+        <div class="main">
+            <h1>SISTEMA DE REGISTRO DE TRANSACCIONES BANCARIAS</h1>
+          </div>
+
+
+          <nav class="navbar">
+            <a class="seccion" href="./index1.html">Registro de transacciones bancarias</a>
+            <a class="seccion" href="./index2.html">Registro de ventas</a>
+            <a class="seccion" href="./index.html">Iniciar seción</a>
+            <!-- <a class="seccion" href="#contacto">Contacto</a> -->
+            </nav>
+<br>
+<br>
+
+    <div class="container">
+      <h1>REGISTRO DE TRANSFERENCIAS BANCARIAS</h1>
+      <form>
+        <label for="cuenta">Número de cuenta:</label>
+        <input type="text" id="cuenta" name="cuenta" required>
+        <label for="monto">Monto:</label>
+        <input type="number" id="monto" name="monto" required>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="banco">Banco:</label>
+        <select id="banco" name="banco">
+          <option value="guayaquil">Banco Guayaquil</option>
+          <option value="pichincha">Banco Pichincha</option>
+        </select>
+
+        <label for="tramite">Trámite:</label>
+        <select id="tramite" name="tramite">
+          <option value="giro">Giro</option>
+          <option value="retiro">Retiro</option>
+          <option value="deposito">Depósito</option>
+        </select><br /><br />
+        
+        <input type="button" value="Agregar al registro" onclick="registrarTransferencia()">
+      </form>
+      <div class="tabla-transferencias">
+        <h2>Historial de transferencias</h2>
+        <table>
+          <tr>
+            <th>Número de cuenta</th>
+            <th>Monto</th>
+            <th>Fecha</th>
+            <th>Banco</th>
+            <th>Trámite</th>
+            <th>Hora</th>
+          </tr>
+        </table>
+        <input type="button" value="Imprimir registro" onclick="imprimirRegistro()">
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <p>Total: $ <span id="total"></span></p>
+    <footer style="text-align: center; font-weight: bold; margin-top: 50px;">
+      © CYBER NARANJAL CITY
+    </footer>
+  </body>
+</html>
